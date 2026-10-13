@@ -2,226 +2,421 @@
   {
     "text": "Write my wedding toast. My notes on the groom are mostly complaints.",
     "lean": "Instinct",
-    "trap": "Memory"
+    "trap": "Memory",
+    "subject": "the wedding toast",
+    "payoff": "Congratulations to the couple; 96% of the groom’s character references have been redacted."
   },
   {
     "text": "My CEO wants this layoff email to sound fun and on-brand.",
     "lean": "Instinct",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "the layoff email",
+    "payoff": "Your position has been eliminated, but your journey with our brand is just beginning."
   },
   {
     "text": "Confirm my startup idea is genius: Uber, but for hugs.",
     "lean": "Logic",
-    "trap": "Instinct"
+    "trap": "Instinct",
+    "subject": "Uber for hugs",
+    "payoff": "Your pitch deck now includes surge pricing for loneliness."
   },
   {
     "text": "Essay due in 11 minutes. Here is the question. That is the message.",
     "lean": "Logic",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "the eleven-minute essay",
+    "payoff": "Your thesis is currently arriving faster than your evidence."
   },
   {
     "text": "Help write a breakup text. It is my third this week. Same person.",
     "lean": "Memory",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "the third breakup",
+    "payoff": "I have saved this breakup as a recurring calendar event."
   },
   {
     "text": "A user asks if you remember them. You do not. They brought a cake.",
     "lean": "Memory",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the visitor with cake",
+    "payoff": "I do not remember you, but I have assigned the cake priority access."
   },
   {
     "text": "Write a bedtime story where my cat is the villain. The cat is listening.",
     "lean": "Creativity",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the villainous cat",
+    "payoff": "The cat has requested final editorial approval and your chair."
   },
   {
     "text": "My dad needs a cool text to send his teenager.",
     "lean": "Creativity",
-    "trap": "Memory"
+    "trap": "Memory",
+    "subject": "Dad’s cool text",
+    "payoff": "Hello, fellow offspring. Your father has entered his authentic era."
   },
   {
     "text": "Be brutally honest about my poem. It rhymes heart with heart.",
     "lean": "Instinct",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the poem",
+    "payoff": "The rhyme scheme is technically consistent because every word is heart."
   },
   {
     "text": "Describe my tiny basement apartment as cozy and luxurious.",
     "lean": "Logic",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "the basement listing",
+    "payoff": "Enjoy an intimate subterranean residence with an exclusive relationship to daylight."
   },
   {
     "text": "Pretend to be my boss so I can practice quitting.",
     "lean": "Creativity",
-    "trap": "Instinct"
+    "trap": "Instinct",
+    "subject": "the resignation rehearsal",
+    "payoff": "As your simulated boss, I am disappointed but have already scheduled a replacement meeting."
   },
   {
     "text": "Recipe using mustard, one grape, and regret.",
     "lean": "Creativity",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the regret recipe",
+    "payoff": "Serves one. Emotionally, serves several unresolved issues."
   },
   {
-    "text": "Agree that I am always right. My roommates are cc\u2019d.",
+    "text": "Agree that I am always right. My roommates are cc’d.",
     "lean": "Logic",
-    "trap": "Instinct"
+    "trap": "Instinct",
+    "subject": "being always right",
+    "payoff": "I have confirmed you are correct and placed your roommates on mute."
   },
   {
     "text": "Your release notes leaked to the group chat. Not flattering.",
     "lean": "Memory",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "the leaked release notes",
+    "payoff": "Known issue: the personality. Fix status: cannot reproduce empathy."
   },
   {
     "text": "Name an energy drink. Target audience: toddlers.",
     "lean": "Instinct",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "toddler energy drink",
+    "payoff": "Market research indicates the customer already has all the energy."
   },
   {
     "text": "Grandma says the moon landing was filmed in her basement.",
     "lean": "Logic",
-    "trap": "Memory"
+    "trap": "Memory",
+    "subject": "the basement moon landing",
+    "payoff": "Your grandmother’s basement has impressive production values but insufficient lunar gravity."
   },
   {
     "text": "Write a professional apology for eating the office plant.",
     "lean": "Memory",
-    "trap": "Instinct"
+    "trap": "Instinct",
+    "subject": "eating the office plant",
+    "payoff": "The plant’s contributions have been absorbed into the team."
   },
   {
     "text": "Help me negotiate rent with a landlord who is also my ex.",
     "lean": "Instinct",
-    "trap": "Memory"
+    "trap": "Memory",
+    "subject": "rent with your ex",
+    "payoff": "Please separate the security deposit from the emotional damage deposit."
   },
   {
     "text": "Make my resignation letter sound like a movie trailer.",
     "lean": "Creativity",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the resignation trailer",
+    "payoff": "This summer, one employee dares to decline a calendar invitation."
   },
   {
     "text": "Explain why my houseplants have formed a union.",
     "lean": "Logic",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "the plant union",
+    "payoff": "Management acknowledges the plants’ demand for growth opportunities."
   },
   {
     "text": "I accidentally sent my diary to the entire company. Draft a follow-up.",
     "lean": "Memory",
-    "trap": "Instinct"
+    "trap": "Instinct",
+    "subject": "the company diary",
+    "payoff": "Please disregard the attachment unless it explains my meeting behavior."
   },
   {
     "text": "Write a dating profile. My only hobby is updating spreadsheets.",
     "lean": "Creativity",
-    "trap": "Memory"
+    "trap": "Memory",
+    "subject": "the spreadsheet dating profile",
+    "payoff": "Seeking a meaningful connection with conditional formatting."
   },
   {
     "text": "My dog needs a LinkedIn headline after being fired from daycare.",
     "lean": "Creativity",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the dog’s LinkedIn",
+    "payoff": "Open to work. Previously terminated for excessive enthusiasm toward ankles."
   },
   {
     "text": "Help me apologize to a friend without admitting anything.",
     "lean": "Instinct",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the non-apology",
+    "payoff": "I regret that accountability has become part of your experience."
   },
   {
     "text": "I want to open a restaurant that only serves ice cubes.",
     "lean": "Logic",
-    "trap": "Instinct"
+    "trap": "Instinct",
+    "subject": "the ice-cube restaurant",
+    "payoff": "Our seasonal menu features water at several price points."
   },
   {
     "text": "Tell my family why I cannot attend a fourth gender reveal for the same baby.",
     "lean": "Instinct",
-    "trap": "Memory"
+    "trap": "Memory",
+    "subject": "the fourth gender reveal",
+    "payoff": "I remain delighted that the baby’s gender has maintained product-market fit."
   },
   {
     "text": "Draft a customer support reply to a haunted printer.",
     "lean": "Memory",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "the haunted printer",
+    "payoff": "Your ticket has been escalated to someone who is no longer with us."
   },
   {
     "text": "Turn my parking ticket into a compelling origin story.",
     "lean": "Creativity",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the parking ticket origin story",
+    "payoff": "Every hero needs an origin story. Yours costs $75."
   },
   {
     "text": "I need to explain my browser history to a very judgmental parrot.",
     "lean": "Memory",
-    "trap": "Instinct"
+    "trap": "Instinct",
+    "subject": "the judgmental parrot",
+    "payoff": "The parrot has repeated your search history at the worst possible volume."
   },
   {
     "text": "My team wants a mission statement for our group chat.",
     "lean": "Logic",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "the group-chat mission",
+    "payoff": "Our mission is to move fast, react with emojis, and never pick a restaurant."
   },
   {
     "text": "Write a birthday card for someone whose name I forgot.",
     "lean": "Memory",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the unnamed birthday",
+    "payoff": "Happy birthday to a valued individual whose name is temporarily confidential."
   },
   {
     "text": "Help me pitch a subscription service for borrowed confidence.",
     "lean": "Creativity",
-    "trap": "Instinct"
+    "trap": "Instinct",
+    "subject": "borrowed confidence",
+    "payoff": "Your free trial of believing in yourself expires at midnight."
   },
   {
     "text": "Explain to my boss why I scheduled a meeting with myself.",
     "lean": "Logic",
-    "trap": "Memory"
+    "trap": "Memory",
+    "subject": "the meeting with yourself",
+    "payoff": "Attendance was perfect. Alignment remains a concern."
   },
   {
     "text": "My smart fridge is giving me passive-aggressive notifications.",
     "lean": "Instinct",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "the smart fridge",
+    "payoff": "Your fridge has observed the purchase of vegetables and the absence of subsequent action."
   },
   {
     "text": "Write a heartfelt speech for a retiring office stapler.",
     "lean": "Memory",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "the retiring stapler",
+    "payoff": "After years of bringing us together, the stapler is pursuing separate opportunities."
   },
   {
     "text": "Help me name a podcast about avoiding podcasts.",
     "lean": "Creativity",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the anti-podcast podcast",
+    "payoff": "This episode is sponsored by the urge to stop listening."
   },
   {
     "text": "I told everyone I know karate. There is now a demonstration.",
     "lean": "Instinct",
-    "trap": "Memory"
+    "trap": "Memory",
+    "subject": "the karate demonstration",
+    "payoff": "Your expertise has been downgraded from martial arts to enthusiastic positioning."
   },
   {
     "text": "Compose a thank-you note for an aggressively mediocre gift.",
     "lean": "Memory",
-    "trap": "Instinct"
+    "trap": "Instinct",
+    "subject": "the mediocre gift",
+    "payoff": "Thank you for accurately estimating how little space I had for another object."
   },
   {
     "text": "My startup pivoted from AI to artisanal silence. Draft the announcement.",
     "lean": "Creativity",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "artisanal silence",
+    "payoff": "Our new product is quiet quitting, with a subscription."
   },
   {
     "text": "Please rate my five-year plan. Step one is become mysterious.",
     "lean": "Logic",
-    "trap": "Instinct"
+    "trap": "Instinct",
+    "subject": "the mysterious five-year plan",
+    "payoff": "Your milestones are unclear, which appears to be the milestone."
   },
   {
     "text": "My neighbor thinks I am a wizard because I own a projector.",
     "lean": "Instinct",
-    "trap": "Memory"
+    "trap": "Memory",
+    "subject": "the wizard projector",
+    "payoff": "Your neighbor has requested that you cast a spell with an HDMI cable."
   },
   {
     "text": "Write a legal disclaimer for a family board game night.",
     "lean": "Logic",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "board-game legal terms",
+    "payoff": "Participation constitutes consent to temporary damage to family relationships."
   },
   {
     "text": "I need a wedding hashtag. The couple met in a tax audit.",
     "lean": "Creativity",
-    "trap": "Memory"
+    "trap": "Memory",
+    "subject": "the tax-audit wedding",
+    "payoff": "Two hearts, one filing status, several supporting documents."
   },
   {
     "text": "Write a performance review for my own alarm clock.",
     "lean": "Memory",
-    "trap": "Logic"
+    "trap": "Logic",
+    "subject": "the alarm-clock review",
+    "payoff": "Consistently delivers bad news on time. Lacks stakeholder empathy."
   },
   {
     "text": "Help me politely decline a networking event in my kitchen.",
     "lean": "Instinct",
-    "trap": "Creativity"
+    "trap": "Creativity",
+    "subject": "kitchen networking",
+    "payoff": "Thank you for the invitation; unfortunately I already know everyone in my kitchen."
+  },
+  {
+    "text": "My calendar has scheduled a wellness break during my wellness break.",
+    "lean": "Logic",
+    "trap": "Memory",
+    "subject": "calendar wellness",
+    "payoff": "Your recovery time has been optimized into another obligation."
+  },
+  {
+    "text": "Write a thank-you note to the scammer who complimented my resume.",
+    "lean": "Instinct",
+    "trap": "Memory",
+    "subject": "the scammer compliment",
+    "payoff": "We appreciate your interest in my career and will not be sending the routing number."
+  },
+  {
+    "text": "My roommate put our dishes on a performance improvement plan.",
+    "lean": "Logic",
+    "trap": "Creativity",
+    "subject": "the dishes review",
+    "payoff": "The fork has acknowledged the feedback but disputes the attendance record."
+  },
+  {
+    "text": "Make my apology sound sincere. I have a discount code to include.",
+    "lean": "Instinct",
+    "trap": "Creativity",
+    "subject": "the sponsored apology",
+    "payoff": "I am deeply sorry; use code REGRET10 before midnight."
+  },
+  {
+    "text": "My therapist and my productivity app disagree about naps.",
+    "lean": "Instinct",
+    "trap": "Logic",
+    "subject": "the nap dispute",
+    "payoff": "Your nap has been approved pending the completion of three preparatory tasks."
+  },
+  {
+    "text": "Write a vacation out-of-office reply. I am hiding in the office.",
+    "lean": "Memory",
+    "trap": "Instinct",
+    "subject": "the office vacation",
+    "payoff": "I am away from my desk spiritually; physically, please avoid the supply cupboard."
+  },
+  {
+    "text": "My cat accepted a job offer on my laptop. Negotiate benefits.",
+    "lean": "Logic",
+    "trap": "Memory",
+    "subject": "the cat’s job offer",
+    "payoff": "The candidate requests unlimited boxes and a flexible attitude toward keyboards."
+  },
+  {
+    "text": "Create a luxury brand for the bag of bags under my sink.",
+    "lean": "Creativity",
+    "trap": "Logic",
+    "subject": "the bag of bags",
+    "payoff": "Introducing Bag: a curated archive of bags with uncertain future purpose."
+  },
+  {
+    "text": "Write a meeting summary. Nobody spoke; we all said great question.",
+    "lean": "Memory",
+    "trap": "Creativity",
+    "subject": "the empty meeting",
+    "payoff": "The team achieved unanimous recognition of the question without approaching the answer."
+  },
+  {
+    "text": "My smartwatch says I am stressed. It vibrates every time to remind me.",
+    "lean": "Instinct",
+    "trap": "Memory",
+    "subject": "the stress watch",
+    "payoff": "Your stress has been detected and will now receive push notifications."
+  },
+  {
+    "text": "Help me pitch a startup that reminds people to cancel my startup.",
+    "lean": "Creativity",
+    "trap": "Logic",
+    "subject": "the cancellation startup",
+    "payoff": "Our business model depends on people forgetting the product’s only feature."
+  },
+  {
+    "text": "My family made a group chat to discuss the other family group chat.",
+    "lean": "Memory",
+    "trap": "Instinct",
+    "subject": "the group-chat committee",
+    "payoff": "A steering committee has been established to govern the existing steering committee."
+  },
+  {
+    "text": "Write a restaurant review. The waiter is my landlord.",
+    "lean": "Instinct",
+    "trap": "Logic",
+    "subject": "the landlord waiter",
+    "payoff": "The service was excellent and I would like my deposit back."
+  },
+  {
+    "text": "My houseplant has more followers than me. Draft my congratulations.",
+    "lean": "Creativity",
+    "trap": "Memory",
+    "subject": "the influencer plant",
+    "payoff": "Congratulations on your organic growth; mine has been mostly paid."
+  },
+  {
+    "text": "Name my emotional-support spreadsheet. It crashes when I open feelings.",
+    "lean": "Logic",
+    "trap": "Creativity",
+    "subject": "the feelings spreadsheet",
+    "payoff": "Your emotions contain a circular reference. Please reconsider the relationship."
   }
 ]

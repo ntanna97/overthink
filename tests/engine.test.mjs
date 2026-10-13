@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),ts=require('typescript');
+require.extensions['.ts']=(m,f)=>m._compile(ts.transpileModule(fs.readFileSync(f,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,esModuleInterop:true}}).outputText,f);
+const e=require('../lib/engine.ts'),experience=require('../lib/experience.ts');
+function fixed(){const g=e.createGame('You');const r=e.current(g);r.glitch='';r.prompt={text:'Example',lean:'Logic',trap:'Memory'};r.roles=['Logic','Memory','Creativity','Instinct'];r.hands=[['L'],['M'],['C'],['I']];return g}
+test('winning a doubled ballot earns actual vote Insight',()=>{const g=fixed(),r=e.current(g);e.submit(g,0,'L','hijack');e.submit(g,1,'M');e.submit(g,2,'C');e.submit(g,3,'I');e.reveal(g);r.votes={0:1,1:0,2:0,3:0};e.resolve(g);assert.equal(g.players[0].insight,6)});
+test('combo matches either role and awards both owners',()=>{const g=fixed(),r=e.current(g);g.phase='vote';r.submissions=[{player:-2,role:'Creativity',text:'C+L',comboOwners:[0,2],comboRoles:['Creativity','Logic']},{player:1,role:'Memory',text:'M'}];r.votes={0:1,1:-2,2:1,3:-2};e.resolve(g);assert.equal(r.winner,-2);assert.ok(r.changes.some(c=>c.label==='Aligned with the Lean'));assert.equal(g.players[0].insight,3);assert.equal(g.players[2].insight,3)});
+test('six seats have full fresh hands for eight rounds',()=>{let g=e.createGame('You',5);for(let i=1;i<=8;i++){const r=e.current(g);for(const hand of r.hands)assert.equal(hand.length,r.glitch==='Context Window Full'?3:5);for(const role of ['Logic','Memory','Creativity','Instinct'])assert.equal(new Set(g.used[role]).size,g.used[role].length);if(i<8)g=e.startRound(g)}});
+test('Callback accepts a prior winner, not arbitrary text',()=>{let g=fixed();let r=e.current(g);r.winner=0;r.submissions=[{player:0,role:'Logic',text:'Prior winner'}];g=e.startRound(g);r=e.current(g);r.roles[0]='Memory';e.submit(g,0,'Untrusted text','hijack');assert.equal(r.submissions.length,0);e.submit(g,0,'Prior winner','hijack');assert.equal(r.submissions[0].text,'Prior winner');assert.equal(g.players[0].tokens,1)});
+test('payoff changes with prompt and stays short',()=>{const p=require('../content/prompts.json');assert.notEqual(e.finalAnswer(p[0].text,'Launch it on a boat.'),e.finalAnswer(p[1].text,'Launch it on a boat.'));for(const prompt of p)for(const role of ['logic','memory','creativity','instinct'])for(const card of require('../content/cards/'+role+'.json'))assert.ok(e.finalAnswer(prompt.text,card).length<=240)});
+test('experience report and awards reference actual game',()=>{let g=fixed();g=e.autoDraft(g);g=e.autoVote(g);assert.equal(experience.awards(g).length,3);assert.ok(experience.shiftReview(g).some(s=>s.includes('1 requests')))});

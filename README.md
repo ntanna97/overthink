@@ -40,3 +40,11 @@ This version adds real Supabase room infrastructure, server-validated room inter
 ## Contest entry
 
 Prepare a 1200 × 630 cover image, public deployed URL, project description and working demonstration before submission. Review the official deadline and eligibility independently.
+
+## Fun and polish update
+
+60 authored dilemmas and 72 cards per role now include prompt-specific payoff writing. Solo players can try a no-timer coached round from the home screen. Card previews show the authored final answer before locking a choice. Verdicts add character commentary, personal device reactions, and staggered diagnostic tallies. End screens include a review drawn from actual rounds, three additional awards, a highlight picker, and an SVG recap download. No image service or AI key is needed for these features.
+
+Power controls now describe the implemented rules: Fact-Check targets a random opposing answer; Yes, And pairs your card with a random opposing answer; Déjà Vu privately reveals the current Trap after locking (next-prompt preview is not implemented); Callback selects a previous winner. Wildcard is not offered until moderated custom text is implemented. Live generated verdicts remain unwired; current payoffs are authored, deterministic, and prompt-specific. Reactions are personal-device feedback, not a synchronized room vote.
+
+Resolver regressions cover combo Lean scoring, actual Insight votes versus doubled ballots, Callback validation, and six-player fresh hands. The larger deck supports eight rounds with six players without recycling. Multiplayer infrastructure and deployment access still require independent completion and live verification.
